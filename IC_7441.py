@@ -1,5 +1,5 @@
 class IC_7441(Base_16pin):
-## This is a 16 pin IC 7441. it has ground pin on 5and power pin as 12
+## This is a 16 pin IC 7441. it has ground pin on 5 and power pin as 12
 ## It has 4 input pins 3,4,6 and 7 while the rest are output pins.
         def __init__(self):
                 self.pins = [None, None, 0, 0, 0, 0, 0, None, None, None, None, 0, None, None, None, None]
